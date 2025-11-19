@@ -7,6 +7,12 @@ public class UsageRecord {
     private double electricityKWh;
     private double lpgKg;
     private double vehicleLiters;
+    
+    @Override
+public String toString() {
+    return date + " | " + electricityKWh + " kWh | " + lpgKg + " kg LPG | " + vehicleLiters + " liters vehicle";
+}
+
 
     public UsageRecord(LocalDate date, double electricityKWh, double lpgKg, double vehicleLiters) {
         this.date = date;

@@ -5,8 +5,16 @@
 //     }
 // }
 import java.util.Scanner;
+import model.UsageRecord;
+import java.util.ArrayList;
+import java.time.LocalDate;
+
 
 public class SmartEnergyAnalyzer {
+
+// In class body
+private static ArrayList<UsageRecord> records = new ArrayList<>();
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int choice;
@@ -22,11 +30,29 @@ public class SmartEnergyAnalyzer {
 
             switch(choice) {
                 case 1:
-                    // TODO: Add record logic
-                    break;
+    System.out.print("Enter electricity usage (kWh): ");
+    double electricity = scanner.nextDouble();
+    System.out.print("Enter LPG usage (kg): ");
+    double lpg = scanner.nextDouble();
+    System.out.print("Enter vehicle fuel usage (liters): ");
+    double vehicle = scanner.nextDouble();
+
+    UsageRecord rec = new UsageRecord(LocalDate.now(), electricity, lpg, vehicle);
+    records.add(rec);
+    System.out.println("Record added!\n");
+    break;
+
                 case 2:
-                    // TODO: View records logic
-                    break;
+    if (records.isEmpty()) {
+        System.out.println("No records found.");
+    } else {
+        System.out.println("Date | Electricity | LPG | Vehicle");
+        for (UsageRecord recItem : records) {
+            System.out.println(recItem);
+        }
+    }
+    break;
+
                 case 3:
                     // TODO: Carbon calculation logic
                     break;
