@@ -1,4 +1,6 @@
 /db/
+!db/records.csv
+
 /screenshots/
 !/screenshots/*.png
 !/screenshots/*.jpg
