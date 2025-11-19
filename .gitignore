@@ -1,5 +1,9 @@
 /db/
 /screenshots/
+!/screenshots/*.png
+!/screenshots/*.jpg
+!/screenshots/*.jpeg
+
 /recordings/
 *.class
 .DS_Store
