@@ -72,4 +72,3 @@ Add screenshots in a `screenshots` folder and reference a few below for your rep
 - Deleting a record
 - CSV file view
 
-Example:
