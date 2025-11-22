@@ -71,4 +71,9 @@ Add screenshots in a `screenshots` folder and reference a few below for your rep
 - Suggestions output
 - Deleting a record
 - CSV file view
+![Add & View Records](screenshots/add_and_view_records.png)
+![Adding Records](screenshots/adding_records.png)
+![Calculating Carbon Footprint](screenshots/calculating_carbon_footprint.png)
+![Deleting Record](screenshots/deleting_record.png)
+![Eco Suggestions](screenshots/eco_suggestions.png)
 
