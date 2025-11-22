@@ -1,12 +1,9 @@
-
 import java.util.Scanner;
 import model.UsageRecord;
 import java.util.ArrayList;
 import java.time.LocalDate;
 import model.CarbonAnalyzer;
 import java.io.*;
-
-
 
 public class SmartEnergyAnalyzer {
 

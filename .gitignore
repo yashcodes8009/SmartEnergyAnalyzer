@@ -7,5 +7,9 @@
 !/screenshots/*.jpeg
 
 /recordings/
+!recordings/*.mp4
+!recordings/*.webm
+!recordings/*.avi
+
 *.class
 .DS_Store
