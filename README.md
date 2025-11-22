@@ -66,14 +66,19 @@ SmartEnergyAnalyzer/
 Add screenshots in a `screenshots` folder and reference a few below for your report/demo:
 
 - Adding a record
-- Viewing usage records
-- Carbon footprint calculation
-- Suggestions output
-- Deleting a record
-- CSV file view
-![Add & View Records](screenshots/add_and_view_records.png)
 ![Adding Records](screenshots/adding_records.png)
+
+- Viewing usage 
+![Add & View Records](screenshots/add_and_view_records.png)
+
+- Carbon footprint calculation
 ![Calculating Carbon Footprint](screenshots/calculating_carbon_footprint.png)
-![Deleting Record](screenshots/deleting_record.png)
+
+- Suggestions output
 ![Eco Suggestions](screenshots/eco_suggestions.png)
+
+- Deleting a record
+![Deleting Record](screenshots/deleting_record.png)
+
+
 
