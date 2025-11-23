@@ -77,3 +77,6 @@ Add screenshots in a `screenshots` folder and reference a few below for your rep
 ![Deleting Record](screenshots/deleting_record.png)
 ![Eco Suggestions](screenshots/eco_suggestions.png)
 
+## 🎥 Demo Video
+
+[Download/Watch Demo](recordings/project_walkthrough.mp4)
