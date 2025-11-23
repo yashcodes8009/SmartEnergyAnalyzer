@@ -3,11 +3,11 @@
 **Track your household energy usage and carbon footprint, compare to eco-standards, and get actionable suggestions to reduce your impact.**
 
 ## Setup
-- Java 11+ required.
-- Run `src/SmartEnergyAnalyzer.java` as the entry point.
+- download Java 11+ 
+- Run `src/SmartEnergyAnalyzer.java` first
 
 
-## ⚡ Features
+## Features
 
 - **Add usage records**: Track electricity (kWh), LPG (kg), and vehicle fuel (liters).
 - **View usage history**: See all past energy inputs (persistent, CSV file-based).
@@ -22,13 +22,14 @@
 - Yash Shah (24BSA10024)
 
 
-## 🚀 Setup Instructions
+## Instructions for setup
 
 1. **Requirements**:  
    - Java 11 or higher
 
 2. **Clone the repository**:  
     -git clone https://github.com/yashcodes8009/SmartEnergyAnalyzer.git
+
 3. **Create the `db` folder in your project root if it doesn't exist.**
 
 4. **Compile the source files:**
@@ -46,7 +47,7 @@ java SmartEnergyAnalyzer
 
 ---
 
-## 📂 Project Structure
+## Project folder Structure
 
 SmartEnergyAnalyzer/
 ├── db/
@@ -61,7 +62,7 @@ SmartEnergyAnalyzer/
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots of implementation:-
 
 Add screenshots in a `screenshots` folder and reference a few below for your report/demo:
 
@@ -71,12 +72,13 @@ Add screenshots in a `screenshots` folder and reference a few below for your rep
 - Suggestions output
 - Deleting a record
 - CSV file view
+
 ![Add & View Records](screenshots/add_and_view_records.png)
 ![Adding Records](screenshots/adding_records.png)
 ![Calculating Carbon Footprint](screenshots/calculating_carbon_footprint.png)
 ![Deleting Record](screenshots/deleting_record.png)
 ![Eco Suggestions](screenshots/eco_suggestions.png)
 
-## 🎥 Demo Video
+## Demo Video:-
 
 [Download/Watch Demo](recordings/project_walkthrough.mp4)
